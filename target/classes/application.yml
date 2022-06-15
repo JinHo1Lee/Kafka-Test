@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: 172.16.3.3:9092,172.16.0.240:9092,172.16.0.241:9092
+
+logging:
+  level:
+    com.example.resource.KafkaConsumer: DEBUG
