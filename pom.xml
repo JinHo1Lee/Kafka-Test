@@ -68,7 +68,7 @@
                   </execution>
                 </executions>
                 <configuration>
-                    <repository>docker.io/jhleedev/kafka-app</repository>
+                    <repository>kafka-app</repository>
                 <tag>${project.version}</tag>
                 </configuration>
             </plugin>

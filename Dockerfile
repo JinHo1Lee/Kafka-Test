@@ -4,7 +4,7 @@ RUN mkdir /config
 
 COPY target/classes /config
 COPY target/lib /lib
-COPY target/*.jar /app.jar
+COPY target/*SNAPSHOT.jar /app.jar
 COPY start.sh /start.sh
 
 ENTRYPOINT ["/bin/sh", "/start.sh"]
